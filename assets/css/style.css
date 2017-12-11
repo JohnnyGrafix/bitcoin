@@ -4,3 +4,52 @@ body {
 	font-size: 1rem;
 	color: gray;
 }
+h3 {
+	font-size: 1.2rem;
+    color: #942c61;
+}
+.contentBox {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 1200px;
+}
+.main {
+   display: inline-flex;
+   position: relative;
+   height: 550px;
+   width: 380px;
+   border: 1px solid red;
+   }
+.image {
+	position: absolute;
+	width: 100%;
+}
+.words {
+	position: absolute;
+}
+.buttonDiv {
+	display: flex;
+	position: absolute;
+	width: 100%;
+	top: 85%;
+	justify-content: space-between;
+	border: 1px solid yellow;
+	padding: 0px;
+	margin: 0px;
+}
+.next {
+	margin: 0px;
+	width: 35%;
+	border: 1px solid blue;
+	}
+.next:hover {
+	width: 37%;
+}
+.back {
+	width: 35%;
+	border: 1px solid blue;
+}
+.back:hover {
+	width: 37%;
+}
