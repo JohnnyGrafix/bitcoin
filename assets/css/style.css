@@ -18,7 +18,7 @@ h3 {
    display: inline-flex;
    position: relative;
    height: 550px;
-   width: 380px;
+   width: 350px;
    margin-bottom: 200px;
    }
 .image {
@@ -103,3 +103,21 @@ h3 {
 	left: 5%;
 	margin-right: 50%;
 }
+@media only screen and (min-width: 730px){
+	#forward1, #p2text1, #back2, #p4text1, #forward3, #back4, #p6text1, #back5, #forward5 {
+		display: none;
+	}
+	
+}
+@media only screen and (min-width: 1080px) {
+	#forward2, #back3, #p3text1, #p5text1, #forward4{
+		display: none;
+	}
+	#forward3 {
+		display: block;
+	}
+	.main {
+		margin-bottom: 0px;
+	}
+}
+	
