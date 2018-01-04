@@ -104,11 +104,16 @@ h3 {
 	margin-right: 50%;
 }
 @media only screen and (min-width: 730px){
-	#forward1, #p2text1, #back2, #p4text1, #forward3, #back4, #p6text1, #back5, #forward5 {
+	#forward1, #p2text1, #p3text1, #p5text1, #back2, #p4text1, #forward3, #back4, #p6text1, #back5, #forward5 {
 		display: none;
 	}
-	
-}
+	.buttonDiv {
+	display: none;
+	}
+	.main {
+		margin-bottom: -50px;
+	}
+	}
 @media only screen and (min-width: 1080px) {
 	#forward2, #back3, #p3text1, #p5text1, #forward4{
 		display: none;
@@ -117,7 +122,7 @@ h3 {
 		display: block;
 	}
 	.main {
-		margin-bottom: 0px;
+		margin-bottom: -100px;
 	}
 }
 	
